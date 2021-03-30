@@ -30,7 +30,7 @@ const secondPage = [
 ];
 
 const smallVehicleNewEnergy = '0123456789';
-const bigVehicleNewEnergy = 'DF';
+const bigVehicleNewEnergy = 'DFA';
 
 const requestAnimationFrame =
   window.requestAnimationFrame || window.webkitRequestAnimationFrame;
