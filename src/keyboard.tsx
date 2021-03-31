@@ -54,7 +54,7 @@ const isNewEnergyPlate = (plate: string): false | string => {
 };
 
 const isNewEnergySmallVehicle = (plate: string) =>
-    /[D|F]/.test(plate[2]) && /^[0-9]+$/.test(plate.slice(4, 7));
+    /[D|F|A]/.test(plate[2]) && /^[0-9]+$/.test(plate.slice(4, 7));
 
 const isNewEnergyBigVehicle = (plate: string) =>
     /^[0-9]+$/.test(plate.slice(2, 7));
